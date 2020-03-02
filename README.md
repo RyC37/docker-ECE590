@@ -1,15 +1,12 @@
-         ___        ______     ____ _                 _  ___  
-        / \ \      / / ___|   / ___| | ___  _   _  __| |/ _ \ 
-       / _ \ \ /\ / /\___ \  | |   | |/ _ \| | | |/ _` | (_) |
-      / ___ \ V  V /  ___) | | |___| | (_) | |_| | (_| |\__, |
-     /_/   \_\_/\_/  |____/   \____|_|\___/ \__,_|\__,_|  /_/ 
- ----------------------------------------------------------------- 
+## Docker Practice - Individual Assignment II of ECE590-Cloud-Computing
 
+#### This repo hosts files of a Docker Image, which includes:
+* **Dockerfile**: a text document that contains all the commands a user could call on the command line to assemble an image.
+* **app.py**: The application itself, exercise a simple functionality, 'Hello world!' text trigger by click.
+* **requirements.txt**: Dependencies.
+* **Makefile**: contains a set of directives for GNU make
+* **push-docker.sh**: contains the commands which push docker image to Docker Hub
 
-Hi there! Welcome to AWS Cloud9!
-
-To get started, create some files, play with the terminal,
-or visit https://docs.aws.amazon.com/console/cloud9/ for our documentation.
-
-Happy coding!
-# docker-ECE590
+#### To run the Docker image:
+1. Pull the docker image: `docker pull luo9137/my-first-repo`
+2. Run the image: `docker run -it luo9137/my-first-repo bash`
